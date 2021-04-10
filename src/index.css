@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Times, serif
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(214, 214, 252);
+  padding-top: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.body {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 40px;
+  /* background-color: #e86c63; */
+}
+
+
+.alert {
+  padding: 10px;
+  background-color: #e86c63;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+}
+.alert:hover{
+  background-color: #e74034;
+
+}
+
+
+.alert2 {
+  padding: 10px;
+  background-color: rgb(104, 224, 104);
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.alert2:hover{
+  /* border-style: dotted; */
+  background-color: rgb(59, 219, 59);
+
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50%;
+
+}
+
+.closebtn:hover {
+  color: red;
+  border-style: solid;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  width: auto;
+  padding: 10px;
+  background-color: #f1f2f6;
+  padding-bottom: 30px;
+  border-radius: 10px;
+
+}
+
+.card:hover {
+  box-shadow: 0 2px 50px 0 black;
+}
+
+.container {
+  padding: 2px 16px;
+}
