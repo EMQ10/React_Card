@@ -1,1 +1,1 @@
-# React_Card
+# Simple React card
